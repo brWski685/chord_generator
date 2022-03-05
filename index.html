@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <div id="main">
+        <h1 class="title">Random Chord Generator</h1>
+
+        <div>
+        <input class="button" type="text" placeholder="Tempo" id="input_field">
+        <button class="button" onclick="myfunc_1()">Start</button>
+        <button class="button" onclick="myfunc_2()">Stop</button>
+        <select class="button" id="select" onchange="myfunc_3()">
+            <option>4/4</option>
+            <option>3/4</option>
+        </select>
+        </div>
+
+        <br>
+        <div class="chord1">
+        <a id="output1"></a>
+        <a id="output2"></a>
+        </div>
+        <br>
+        <div class="chord2">
+        <a id="output3"></a>
+        <a id="output4"></a>
+        </div>
+
+        <audio id="metronome" src="sounds/metronome.wav" preload="auto"></audio>
+        <audio id="metronomeup" src="sounds/metronomeup.wav" preload="auto"></audio>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

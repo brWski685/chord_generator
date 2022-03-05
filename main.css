@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    font-size: 80px;
+    margin: 25pt;
+}
+.chord1{
+    border: 1px solid #ff7f5060;
+}
+.chord2{
+    border: 1px solid #6494ed69;
+}
+
+#output1{
+    font-size: 300px;
+}
+#output2 {
+    font-size: 150px;
+}
+#output3{
+    font-size: 240px;
+}
+#output4 {
+    font-size: 120px;
+}
+
+.button {
+    height: 30px;
+    width: 90px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    cursor: pointer;
+}
